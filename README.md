@@ -15,6 +15,7 @@ In memory, they are encoded as such:
 
 - Float: 1 sign bit, 8 exponent bits, and 23 significand bits (the significant figures in scientific notation base 2)
 - Double: 1 sign bit 11 exponent bits, and 52 significand bits (the significant figures in scientific notation base 2)
+
 We know this is correct because 1 + 8 + 23 = 32 bits and 1 + 11 + 52 = 64 bits.
 
 If we had a double value of -256, for instance, we'd have a value of 1 in the sign bit, a value of 8 in the exponent
