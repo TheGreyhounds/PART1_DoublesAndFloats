@@ -10,7 +10,9 @@ This principal is carried into how floating point numbers are stored in computer
 can store numbers with decimal points in Java are:
 - Float: 32 bits wide
 - Double: 64 bits wide
+
 In memory, they are encoded as such:
+
 - Float: 1 sign bit, 8 exponent bits, and 23 significand bits (the significant figures in scientific notation base 2)
 - Double: 1 sign bit 11 exponent bits, and 52 significand bits (the significant figures in scientific notation base 2)
 We know this is correct because 1 + 8 + 23 = 32 bits and 1 + 11 + 52 = 64 bits.
